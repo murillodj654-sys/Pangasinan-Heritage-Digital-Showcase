@@ -33,10 +33,10 @@ export default function Image({
 <NextImage
   alt={alt}
   src={
-  typeof src === "string"
-    ? `/Pangasinan-Heritage-Digital-Showcase${src}`
-    : src
-}
+    typeof src === "string"
+      ? `/Pangasinan-Heritage-Digital-Showcase${src}`
+      : src
+  }
   fill={fill}
   sizes={
     sizes || "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
