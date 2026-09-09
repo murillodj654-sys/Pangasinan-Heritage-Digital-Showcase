@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Casual sans-serif pairing: Poppins for friendly, rounded headings; Inter for body text. */
+  --font-heading: "Poppins", "Segoe UI", Arial, sans-serif;
+  --font-body: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #1c6ea4;
+  outline-offset: 2px;
+}
+
+body {
+  color: #1a2027;
+}
